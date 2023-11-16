@@ -1,0 +1,22 @@
+:root {
+  --text_color: #80868b;
+  --accent_color: #7baaf7;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #202124;
+  color: var(--text_color);
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
